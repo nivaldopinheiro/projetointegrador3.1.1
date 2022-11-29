@@ -1,4 +1,15 @@
 {
+  "name": "nodejs-express-deploy-heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords":[],
+  "author": "",
+  "license": "ISC",
+  {
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.1",
@@ -20,6 +31,5 @@
     "php": "^1.0.2",
     "php-server": "^1.0.0",
     "sequelize": "^6.25.4"
-    "start": "node ./build/index.js"
   }
 }
