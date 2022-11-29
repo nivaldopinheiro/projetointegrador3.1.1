@@ -409,7 +409,7 @@ app.post("/cadastro_rota", function(request, response, next){
 
  app.listen(PORT, function(err){
 
-    if (err) console.log(err);
+    if (err) console.info(err);
 
-    console.log("Server listening on PORT", PORT);
+    console.info("Server listening on PORT", PORT);
 });
